@@ -1,6 +1,6 @@
 cask "offsend-cli" do
-  version "0.5.1"
-  sha256 "4f5ae1aa9daa93702b364cb3f2eacbcd067d24df067bd0088ead128a5147ef85"
+  version "0.6.0"
+  sha256 "05d6cf26f952d4aab2dc13fa0b0c4f5e5d9469efa4bc4dca71c14228c1228e5d"
 
   url "https://github.com/Offsend/Offsend/releases/download/v#{version}/offsend-cli-#{version}.zip"
   name "Offsend CLI"
