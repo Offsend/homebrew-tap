@@ -5,8 +5,6 @@ class OffsendCli < Formula
   sha256 "65499b49375220d0ed1dd204ff74f01ed91c2e613116242d097618db882f5c8a"
   version "0.5.0"
 
-  depends_on macos: ">= :ventura"
-
   def install
     libexec.install Dir["*"]
     (bin/"offsend").write <<~EOS
