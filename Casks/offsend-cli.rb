@@ -1,10 +1,10 @@
-cask "offsend" do
+cask "offsend-cli" do
   version "0.5.1"
-  sha256 "3020728a9ed37aa2881f1c9d420d53a95c837cd1c55d7eabc0519036a956cda7"
+  sha256 "4f5ae1aa9daa93702b364cb3f2eacbcd067d24df067bd0088ead128a5147ef85"
 
-  url "https://github.com/Offsend/Offsend/releases/download/v#{version}/Offsend-#{version}.dmg"
-  name "Offsend"
-  desc "Prepare projects, files, and clipboard text before sharing with AI tools"
+  url "https://github.com/Offsend/Offsend/releases/download/v#{version}/offsend-cli-#{version}.zip"
+  name "Offsend CLI"
+  desc "Local sensitive data checks for developers (Offsend CLI)"
   homepage "https://offsend.io"
 
   livecheck do
@@ -14,7 +14,7 @@ cask "offsend" do
 
   depends_on macos: :ventura
 
-  app "Offsend.app"
+  binary "offsend"
 
   zap trash: [
     "~/Library/Application Support/Offsend",
