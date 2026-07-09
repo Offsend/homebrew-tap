@@ -1,7 +1,7 @@
 class OffsendCli < Formula
   desc "Local sensitive data checks for developers (Offsend CLI)"
   homepage "https://offsend.io"
-  version "0.10.0"
+  version "0.10.1"
   license "Apache-2.0"
 
   on_macos do
@@ -11,11 +11,11 @@ class OffsendCli < Formula
   on_linux do
     on_intel do
       url "https://github.com/Offsend/Offsend/releases/download/v#{version}/offsend-cli-#{version}-linux-x86_64.tar.gz"
-      sha256 "e20efab04db78b9b0629a00188c143a0565e0dee190d721b4522a43cbe270ed3"
+      sha256 "50391f85a6307f1bb92e8f30b5d01d59cee525caadcc6fb0e40d81aa0bc1c02f"
     end
     on_arm do
       url "https://github.com/Offsend/Offsend/releases/download/v#{version}/offsend-cli-#{version}-linux-aarch64.tar.gz"
-      sha256 "b8b61eac37f84df4ad005e7df693594063583acddc3d6e8cba18add04518ee2e"
+      sha256 "9f02777d2342148e4806467d7f53b4ee37883c85d74e6f79b8cca5fd44009a5e"
     end
   end
 
