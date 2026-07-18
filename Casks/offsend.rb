@@ -1,6 +1,6 @@
 cask "offsend" do
-  version "0.16.0"
-  sha256 "3af65a04d6026f49ae0b7ef61b75c3d2b9c89939bec921a353eb87a6b7822248"
+  version "0.17.0"
+  sha256 "c031a2e76f8ead0db1def3fa2831ed365b73b903f03453c3d31fb24efcb66b2a"
 
   url "https://github.com/Offsend/Offsend/releases/download/v#{version}/Offsend-#{version}.dmg"
   name "Offsend"
